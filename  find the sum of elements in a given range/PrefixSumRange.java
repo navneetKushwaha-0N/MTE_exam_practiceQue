@@ -1,4 +1,7 @@
-public class PrefixSumRange{
+import java.util.Scanner;
+
+public class prefixSumRange {
+
 
     // Function to build the prefix sum array
     public static int[] buildPrefixSum(int[] arr) {
@@ -11,7 +14,7 @@ public class PrefixSumRange{
         return prefix;
     }
 
-    // Function to get sum in range [L, R]
+    // Function to get the sum in the range [L, R]
     public static int rangeSum(int[] prefix, int L, int R) {
         if (L == 0) {
             return prefix[R];
@@ -20,16 +23,37 @@ public class PrefixSumRange{
         }
     }
 
-    // Main method to test the code
+    // Main function
     public static void main(String[] args) {
-        int[] arr = {3, 5, 2, 8, 9, 6};
+        Scanner scanner = new Scanner(System.in);
 
+        // Input array size
+        System.out.print("Enter size of array: ");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+
+        // Input array elements
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        // Build prefix sum array
         int[] prefix = buildPrefixSum(arr);
 
-        int L = 1;
-        int R = 4;
+        // Input range [L, R]
+        System.out.print("Enter range L and R (0-based index): ");
+        int L = scanner.nextInt();
+        int R = scanner.nextInt();
 
-        int sum = rangeSum(prefix, L, R);
-        System.out.println("Sum from index " + L + " to " + R + " is: " + sum);
+        // Get range sum
+        if (L < 0 || R >= n || L > R) {
+            System.out.println("Invalid range.");
+        } else {
+            int sum = rangeSum(prefix, L, R);
+            System.out.println("Sum from index " + L + " to " + R + " is: " + sum);
+        }
+
+        scanner.close();
     }
 }
