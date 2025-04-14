@@ -8,7 +8,7 @@ public class MaxSubarraySum {
             return -1;
         }
 
-        // Step 1: Calculate sum of first window
+        // Step 1: Calculate  sum of first window
         int windowSum = 0;
         for (int i = 0; i < k; i++) {
             windowSum += arr[i];

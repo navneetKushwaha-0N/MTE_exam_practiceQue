@@ -12,7 +12,7 @@ public class SplitArraySum {
             totalSum -= arr[i]; // Right sum after removing arr[i]
 
             if (leftSum == totalSum) {
-                return true; // Found the split point
+                return true; // Found the split  point
             }
 
             leftSum += arr[i];

@@ -46,7 +46,7 @@ public class prefixSumRange {
         int L = scanner.nextInt();
         int R = scanner.nextInt();
 
-        // Get range sum
+        // Get range  sum
         if (L < 0 || R >= n || L > R) {
             System.out.println("Invalid range.");
         } else {
