@@ -1,6 +1,6 @@
 # Maximum Sum of Subarray of Size K (Sliding Window Technique)
 
-## ✅ Algorithm (Using Sliding Window Technique)
+## Algorithm (Using Sliding Window Technique)
 
 1. Calculate the sum of the first **K** elements. Let this be `windowSum`.
 2. Initialize `maxSum = windowSum`.
@@ -12,7 +12,7 @@
 
 ---
 
-## ✅ Time and Space Complexity
+##  Time and Space Complexity
 
 - **Time Complexity**:  
   `O(n)` → Traverse the array once.

@@ -1,4 +1,4 @@
-## ✅ Algorithm: Kadane’s Algorithm (Maximum Subarray Sum)
+##  Algorithm: Kadane’s Algorithm (Maximum Subarray Sum)
 
 ### Steps:
 

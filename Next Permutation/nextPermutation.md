@@ -1,6 +1,6 @@
 ## Next Greater Element (NGE)
 
-### ✅ Problem Statement
+###  Problem Statement
 For each element in an array, find the **Next Greater Element** to its right. If there is no greater element, return -1 for that position.
 
 **Example:**
@@ -11,7 +11,7 @@ Output: [5, 10, 10, -1, -1]
 
 ---
 
-### 🔄 Algorithm (Using Stack)
+###  Algorithm (Using Stack)
 1. Initialize an empty stack and a result array `res` of the same size as input.
 2. Traverse the array from **right to left**.
 3. For each element:
@@ -23,25 +23,25 @@ Output: [5, 10, 10, -1, -1]
 
 ---
 
-### ⏱️ Time Complexity
+### ⏱ Time Complexity
 | Operation            | Complexity |
 |----------------------|------------|
 | Traversing the array | O(n)       |
 | Stack operations     | O(n)       |
 
-⬆️ **Total:** O(n)
+⬆ **Total:** O(n)
 
 Each element is pushed and popped from the stack at most once.
 
 ---
 
-### 📀 Space Complexity
+### Space Complexity
 | Structure     | Space |
 |--------------|--------|
 | Result array  | O(n)   |
 | Stack         | O(n)   |
 
-⬆️ **Total:** O(n)
+⬆**Total:** O(n)
 
 ---
 
