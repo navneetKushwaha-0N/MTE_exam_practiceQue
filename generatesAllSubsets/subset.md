@@ -1,4 +1,4 @@
-# ✅ Algorithm: Generate All Subsets (Power Set)
+# : Generate All Subsets (Power Set)
 
 We can generate all subsets of a given array using **backtracking** or **bit manipulation**. Here's the backtracking-based approach:
 
@@ -11,7 +11,7 @@ We can generate all subsets of a given array using **backtracking** or **bit man
 
 ---
 
-## ⏱ Time and 📀 Space Complexity
+## ⏱ Time and  Space Complexity
 
 ### Time Complexity:
 - **O(2ⁿ)** — Each element has two choices (include or exclude), so total subsets = `2^n`.

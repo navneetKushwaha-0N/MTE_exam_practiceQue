@@ -1,7 +1,7 @@
 
 ## Intersection of Two Linked Lists
 
-### 🔄 Algorithm:
+###  Algorithm:
 
 1. **Calculate the lengths of both linked lists**:
    - Traverse both linked lists and calculate their lengths (`lenA` for the first list and `lenB` for the second list).
@@ -20,7 +20,7 @@
 
 ---
 
-### ⏱️ Time Complexity:
+### ⏱ Time Complexity:
 
 - **Calculating the length of both linked lists**: O(n) and O(m) respectively, where `n` is the length of the first list and `m` is the length of the second list.
 - **Aligning the pointers**: This takes at most O(n - m) steps to align the pointers.
@@ -30,7 +30,7 @@
 
 ---
 
-### 📀 Space Complexity:
+###  Space Complexity:
 
 The algorithm only uses a few pointers, so it doesn't require extra space proportional to the input size.
 

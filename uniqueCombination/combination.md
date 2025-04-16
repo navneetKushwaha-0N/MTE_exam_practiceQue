@@ -1,4 +1,4 @@
-# ✅ Problem: Find All Unique Combinations of Numbers that Sum to a Target
+#  Problem: Find All Unique Combinations of Numbers that Sum to a Target
 
 We need to find all combinations of numbers from a given array such that the sum of the numbers in each combination equals a target value.
 
@@ -15,7 +15,7 @@ We can solve this problem using **backtracking**. At each step, we explore wheth
 
 ---
 
-## ⏱ Time and 📀 Space Complexity
+## ⏱ Time and  Space Complexity
 
 ### Time Complexity:
 - **O(2^n)** — In the worst case, we explore all subsets of the input array. Each recursive call either includes or excludes an element.

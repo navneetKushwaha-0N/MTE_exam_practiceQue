@@ -1,6 +1,6 @@
 🔗 Concept of Linked Lists and Their Applications in Algorithm Design
 
-💡 What is a Linked List?
+ What is a Linked List?
 
 A linked list is a linear data structure where elements (called nodes) are stored in memory in a non-contiguous way. Each node contains:
 
@@ -16,7 +16,7 @@ Doubly Linked List: Nodes have references to both next and previous nodes.
 
 Circular Linked List: The last node connects back to the first node.
 
-🧠 Why Use Linked Lists?
+ Why Use Linked Lists?
 
 Dynamic Size: Unlike arrays, linked lists do not require predefined size and can grow/shrink dynamically.
 

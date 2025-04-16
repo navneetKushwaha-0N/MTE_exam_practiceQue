@@ -1,12 +1,12 @@
- 🔁 Next Lexicographical Permutation (Java)
+  Next Lexicographical Permutation (Java)
 
-## 📌 Problem Statement
+##  Problem Statement
 Given an array of integers, rearrange the numbers to get the **next lexicographically greater permutation** of numbers.  
 If such an arrangement is not possible (i.e., the array is in descending order), rearrange it as the **lowest possible order** (sorted in ascending order).
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. **Find the first decreasing element from the right** (index `i`):
    - Traverse from right to left and find the first index `i` such that `arr[i] < arr[i + 1]`.

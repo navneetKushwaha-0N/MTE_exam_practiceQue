@@ -23,7 +23,7 @@
 
 ---
 
-## ⏱️ Time and Space Complexities
+##  Time and Space Complexities
 
 - **Time Complexity:** `O(log(min(n, m)))`  
   The binary search runs on the smaller array (`nums1`), hence the complexity is logarithmic in terms of the smaller array's size.
@@ -33,7 +33,7 @@
 
 ---
 
-## 📊 Example Walkthrough
+##  Example Walkthrough
 
 ### **Example 1:**
 

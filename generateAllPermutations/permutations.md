@@ -1,4 +1,4 @@
-# ✅ Problem: Generate All Permutations of a Given Array
+# Problem: Generate All Permutations of a Given Array
 
 ## Algorithm:
 
@@ -16,7 +16,7 @@ By swapping the current element with the other elements, we generate all possibl
 
 ---
 
-## ⏱ Time and 📀 Space Complexity:
+## ⏱ Time and  Space Complexity:
 
 ### Time Complexity:
 - **O(n!)** — The number of permutations of an array of size `n` is `n!`. In the worst case, we generate all `n!` permutations. For each permutation, we perform constant work to copy and add it to the result.

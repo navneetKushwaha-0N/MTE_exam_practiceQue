@@ -1,4 +1,4 @@
-## ✅ Algorithm: Find Equilibrium Index
+## Algorithm: Find Equilibrium Index
 
 ### Step-by-step:
 
@@ -19,20 +19,20 @@
 
 ---
 
-### ⏱️ Time Complexity: `O(n)`
+### ⏱Time Complexity: `O(n)`
 - One pass to compute the total sum → `O(n)`
 - One pass to check for the equilibrium index → `O(n)`
 - **Total: O(n)**
 
 ---
 
-### 📀 Space Complexity: `O(1)`
+###  Space Complexity: `O(1)`
 - Only a few variables (`totalSum`, `leftSum`, loop index) are used.
 - **No extra space** proportional to the size of the input.
 
 ---
 
-### 🧠 Example:
+###  Example:
 For input array:
 ```java
 arr = {-7, 1, 5, 2, -4, 3, 0}
@@ -41,4 +41,4 @@ arr = {-7, 1, 5, 2, -4, 3, 0}
 - At index `3`,  
   - Left sum = `-1` (`-7 + 1 + 5`)  
   - Right sum = `-1` (`-4 + 3 + 0`)  
-  ✅ So, `3` is the equilibrium index.
+   So, `3` is the equilibrium index.

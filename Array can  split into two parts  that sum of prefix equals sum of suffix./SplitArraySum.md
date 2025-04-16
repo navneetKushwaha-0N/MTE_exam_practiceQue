@@ -5,7 +5,7 @@ Given an array `arr[]`, check if there exists an index `i` such that the sum of 
 
 ---
 
- ⚙️ Algorithm
+  Algorithm
 
 1. Compute the total sum of the array.
 2. Initialize `leftSum = 0`.
@@ -18,7 +18,7 @@ Given an array `arr[]`, check if there exists an index `i` such that the sum of 
 
 ---
 
-⏱️ Time and Space Complexity
+ Time and Space Complexity
 
 * Time Complexity: O(n)
 One pass to compute the total sum

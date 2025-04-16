@@ -1,6 +1,6 @@
-# 🔗 Merge Two Sorted Linked Lists (Java)
+# Merge Two Sorted Linked Lists (Java)
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. Create a **dummy node** to act as the starting point of the merged list.
 2. Use a **pointer `tail`** to keep track of the current node in the new list.
@@ -12,18 +12,18 @@
 
 ---
 
-## ⏱️ Time and Space Complexities
+##  Time and Space Complexities
 
 - **Time Complexity:** `O(n + m)`  
   Where `n` and `m` are the lengths of the two lists. Each node is visited exactly once.
 
 - **Space Complexity:** `O(1)`  
   No extra memory is used, except for the dummy node and pointers.
-  > ⚠️ If a new list was created instead of rearranging existing pointers, it would be `O(n + m)`.
+  >  If a new list was created instead of rearranging existing pointers, it would be `O(n + m)`.
 
 ---
 
-## 📊 Example Walkthrough
+##  Example Walkthrough
 
 **Input:**
 

@@ -1,6 +1,6 @@
-# 📚 Sliding Window Technique
+#  Sliding Window Technique
 
-## 🔍 What is it?
+##  What is it?
 
 The sliding window technique is an optimization technique used to reduce the time complexity of certain algorithms that involve arrays or lists. It's especially useful for problems involving **subarrays**, **substrings**, or **contiguous sequences**.
 
@@ -8,7 +8,7 @@ Instead of recalculating results from scratch for each subarray (which is often 
 
 ---
 
-## 🧠 How it Works
+##  How it Works
 
 - You define a **window size** (fixed or dynamic).
 - Start from the beginning of the array.
@@ -30,25 +30,25 @@ The window expands and contracts based on a condition.
 
 ---
 
-## 💡 Applications in Array Problems
+##  Applications in Array Problems
 
-### ✅ Maximum/Minimum in a Subarray
+###  Maximum/Minimum in a Subarray
 - **Problem:** Find the max element in every subarray of size `k`.
 - **Technique:** Use a deque to maintain a sliding window of max elements.
 
-### ✅ Subarray Sum
+###  Subarray Sum
 - **Problem:** Find subarrays with a given sum.
 - **Technique:** Use sliding window with two pointers to adjust the window size.
 
-### ✅ Longest Substring Without Repeating Characters
+###  Longest Substring Without Repeating Characters
 - **Problem:** Find the length of the longest substring without repeating characters.
 - **Technique:** Use a hash map and a sliding window that shrinks when duplicates appear.
 
-### ✅ Counting Anagrams or Permutations in a String
+### Counting Anagrams or Permutations in a String
 - **Problem:** Count how many substrings are anagrams of a pattern.
 - **Technique:** Use frequency maps and a sliding window of pattern size.
 
-### ✅ Binary Subarrays with at Most K Ones
+###  Binary Subarrays with at Most K Ones
 - **Problem:** Count subarrays with at most `K` 1s.
 - **Technique:** Expand window until condition breaks, then shrink from the left.
 

@@ -1,6 +1,6 @@
 # Length of the Longest Substring Without Repeating Characters
 
-## ✅ Algorithm (Using Sliding Window + HashSet)
+##  Algorithm (Using Sliding Window + HashSet)
 
 1. Initialize a `HashSet` to store unique characters.
 2. Initialize two pointers `left` and `right` both at `0`.
@@ -12,7 +12,7 @@
 
 ---
 
-## ✅ Example
+## Example
 
 For the input: `"abcabcbb"`
 

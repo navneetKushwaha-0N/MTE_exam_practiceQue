@@ -1,11 +1,11 @@
-# 🌟 Longest Common Prefix - Java Implementation
+#  Longest Common Prefix - Java Implementation
 
-## 📝 Problem Statement
+##  Problem Statement
 Given an array of strings, find the **longest common prefix** among them.
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 1. If the input array is empty, return `""`.
 2. Initialize the prefix as the first string in the array.
@@ -16,7 +16,7 @@ Given an array of strings, find the **longest common prefix** among them.
 
 ---
 
-## 💻 Java Program
+## Java Program
 
 ```java
 public class LongestCommonPrefix {
