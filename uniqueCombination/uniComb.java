@@ -12,7 +12,7 @@ public class uniComb {
     }
 
     private static void backtrack(int[] candidates, int target, int start, List<Integer> current, List<List<Integer>> result) {
-        // If the target is zero, we've found a valid combination
+        
         if (target == 0) {
             result.add(new ArrayList<>(current));
             return;
