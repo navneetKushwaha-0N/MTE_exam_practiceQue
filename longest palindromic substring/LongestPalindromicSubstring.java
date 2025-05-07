@@ -10,7 +10,7 @@ public class LongestPalindromicSubstring {
         int maxLength = 1;
         int start = 0;
 
-        // Base case: Single character substrings
+        // Base case: Single character substrings ......
         for (int i = 0; i < n; i++) {
             dp[i][i] = true;
         }
